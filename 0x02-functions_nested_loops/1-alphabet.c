@@ -1,18 +1,21 @@
-  
 #include "main.h"
 
 /**
- * print_alphabet - prints a-z to the standard output
+ * print_alphabet - check the code for ALX School students.
  *
- * Return: Doesn't return anything, void
+ * Return: Always 0.
  */
+
 void print_alphabet(void)
 {
-	char i;
+	char alp = 'a';
 
-	for (i = 'a'; i <= 'z'; i++)
+	while (alp <= 'z')
 	{
-		_putchar(i);
+		_putchar (alp);
+		alp++;
+
 	}
-	_putchar(10);
+	_putchar ('\n');
+
 }
