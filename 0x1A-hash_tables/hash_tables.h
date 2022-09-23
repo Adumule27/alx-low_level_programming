@@ -1,5 +1,6 @@
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
+#ifndef _HASH_TABLES_H_
+#define _HASH_TABLES_H_
+
 
 #include <stdlib.h>
 #include <string.h>
